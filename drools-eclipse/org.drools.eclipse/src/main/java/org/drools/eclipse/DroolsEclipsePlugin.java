@@ -803,7 +803,7 @@ public class DroolsEclipsePlugin extends AbstractUIPlugin {
                                     IResource resource,
                                     KnowledgeBuilderConfigurationImpl config) {
     	KnowledgeBuilderImpl packageBuilder = new KnowledgeBuilderImpl( config );
-        ProcessBuilderImpl processBuilder = null; // TODO uncomment -> new ProcessBuilderImpl( packageBuilder );
+        ProcessBuilderImpl processBuilder = new ProcessBuilderImpl( packageBuilder );
         processBuilder.buildProcess( process, ResourceFactory.newUrlResource(
             "file://" + resource.getLocation().toString() ) );
         ProcessInfo processInfo = new ProcessInfo( process.getId(),

@@ -76,7 +76,7 @@ public class ReteooVisitor extends ReflectiveVisitor {
     /**
      * RuleBaseImpl visits its Rete.
      */
-    public void visitReteooRuleBase(final InternalKnowledgeBase ruleBase) {
+    public void visitInternalKnowledgeBase(final InternalKnowledgeBase ruleBase) {
         visit( (ruleBase).getRete() );
     }
 
