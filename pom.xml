@@ -6,13 +6,14 @@
   <parent>
     <groupId>org.kie</groupId>
     <artifactId>kie-parent-with-dependencies</artifactId>
-    <version>6.1.0.Final</version>
+    <version>6.1.0.Laiqu</version>
     <!-- relativePath causes out-of-date problems on hudson slaves -->
     <!--<relativePath>../droolsjbpm-build-bootstrap/pom.xml</relativePath>-->
   </parent>
 
   <groupId>org.drools</groupId>
   <artifactId>droolsjbpm-tools</artifactId>
+    <version>6.1.0.Laiqu</version>
   <packaging>pom</packaging>
 
   <name>Drools and jBPM Tools multiproject</name>
